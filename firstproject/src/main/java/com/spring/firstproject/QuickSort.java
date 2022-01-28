@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
 public class QuickSort implements SortAlgoInt {
 
 	@Override  // important annotation as it tells compiler to run mandatory checks for override methods
-	public int[] sort(int[] arr) {
+	public int[] sort(int[] unsortedArr) {
 		//Write complex logic to sort using Quick Sort
-		int result[] = arr;
-		return result;
+		int sortedArr[] = unsortedArr;
+		return sortedArr;
 	}
 }

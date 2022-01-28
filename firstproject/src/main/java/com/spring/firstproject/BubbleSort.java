@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 public class BubbleSort implements SortAlgoInt {
 
 	@Override
-	public int[] sort(int[] arr) {
+	public int[] sort(int[] unsortedArr) {
 		//Write complex logic to sort using Bubble Sort
-		int result[] = arr;
-		return result;
+		int sortedArr[] = unsortedArr;
+		return sortedArr;
 	}
 
 }
