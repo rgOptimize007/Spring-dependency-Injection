@@ -22,8 +22,6 @@ public class FirstprojectApplication {
 		BinarySearchImpl sortAlgo = context.getBean(BinarySearchImpl.class);
 		boolean result = sortAlgo.binarySearch(new int[]{1,2,3,4} , 5);
 		System.out.print("Answer : " + result);
-
-		//System.out.print("Hello World!!"); 
 		
 		//Note : Check for any Red markers and delete them. Will not affect your execution
 	}
